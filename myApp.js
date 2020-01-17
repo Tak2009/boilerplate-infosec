@@ -17,8 +17,7 @@ var app = express();              // Do Not Edit
 // Express apps by setting various HTTP headers.
 // Install the package, then require it.
 
-const helmet = require('helmet');
-app.use(helmet())
+var helmet = require('helmet');
 
 
 
